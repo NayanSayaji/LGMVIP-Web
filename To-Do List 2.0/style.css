@@ -24,20 +24,19 @@ body {
 
 /* Container Box */
 .container {
-    background: linear-gradient(100deg,
-            #e4ac92,
-            #e7cca9
-            );    padding: 40px 50px;
+    padding: 40px 50px;
     width: 50%;
     min-width: 400px;
     position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border-bottom: 1px solid black;
-    border-right: 2px solid black;
-    border-radius: 30px;
-    box-shadow: 5px 5px 30px rgba(144, 176, 245, 0.5);    
+    border-bottom: 2px solid black;
+    border-top: 1px solid rgb(48, 45, 45);
+    border-left: 1px solid rgb(48, 45, 45);
+    border-right: 4px solid black;
+    border-bottom-right-radius: 30px;
+    box-shadow: 5px 5px 30px rgba(245, 119, 192, 0.5);    
 }
 
 
@@ -54,7 +53,7 @@ h3 {
     /* margin : top right bottom left;*/
     width: auto;
     border-bottom: 1px solid black;
-    border-right: 2px solid black;
+    border-top: 1px solid black;
     border-top-left-radius: 30px ;
     border-bottom-right-radius: 30px ;
     transition: 0.3s ease-in-out;
