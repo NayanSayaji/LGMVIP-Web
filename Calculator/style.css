@@ -1,0 +1,99 @@
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* Setting Background */
+body {
+    height: 100vh;
+    /* background: linear-gradient(180deg,
+            rgba(190, 162, 162, 0.5), 
+            rgb(4, 242, 222, 0.5)
+            ); */
+    background-image: url('https://cutewallpaper.org/21/cool-maths-background/99-Best-Of-Cool-Math-Backgrounds-This-Week-Scene-by-Laurie.jpg');
+    margin-top: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+.heading {
+    font-family: cursive;
+    align-content: center;
+    text-align: center;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.6);
+    margin: 15px 35% 15px 35%;
+    /* margin : top right bottom left;*/
+    width: auto;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-radius: 50px;
+    box-shadow: 3px 7px 20px rgb(134, 194, 166);
+}
+
+.container {
+    text-align: center;
+    margin-top: 23px;
+}
+
+table {
+    margin: auto;
+}
+
+input {
+    font-size: 34px;
+    border-radius: 1px;
+    width: 350px;
+    padding: 7px;
+    margin-bottom: 15px;
+    border: 2px solid rgb(156, 21, 21);
+    border-radius: 100px;
+    box-shadow: 10px 10px 12px rgba(16, 8, 18, 0.572);
+
+}
+input:hover{
+    background-color: white;
+    border: 2px solid rgb(136, 11, 11);
+    border-bottom: none;
+    border-right: none;
+}
+td{
+    padding-bottom: 10px;
+}
+
+button {
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgb(251, 243, 224);
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border: 2px solid rgb(235, 149, 192);
+    border-radius: 100px;
+    border-top: none;
+    border-left: none;
+    box-shadow: 5px 3px 7px rgba(12, 7, 14, 0.572);
+}
+button:hover{
+    background-color: white;
+    border: 2px solid rgb(136, 11, 11);
+    border-bottom: none;
+    border-right: none;
+    transform: scale(1.05);
+}
+
+.calculator {
+    background: linear-gradient(100deg, rgb(207, 187, 219), rgb(219, 210, 180));
+    padding: 35px;
+    display: inline-block;
+    box-shadow: 17px 27px 30px 25px rgba(212, 70, 42, 0.572);
+    border: 3px solid rgb(27, 25, 25);
+    border-top: 1px solid rgb(27, 25, 25);
+    border-left: 1px solid rgb(27, 25, 25);
+    border-radius: 50px;
+}
